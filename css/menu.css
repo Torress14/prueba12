@@ -1,0 +1,93 @@
+.head{
+    margin:auto;
+    width:100%;
+    padding: 0;
+    font-family:'Roboto-Regular';
+    margin-top: 1px;
+    /* position: fixed; */
+} 
+.hea{
+    grid-column-start: 1;
+    grid-column-end: 4;  
+}
+.nav li a {
+    background-color:#f8f8f8;
+    color:rgb(150, 14, 14);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+/*************** ****************** Menu **************************************/
+.contenedor .head nav{
+    margin-left: 183px;
+    
+}
+.contenedor .head nav ul {
+    display: block;
+    /* overflow: hidden; Limpiamos errores de float */
+}
+.contenedor .head nav ul li{
+    display: block;
+    font-weight: 300;
+    
+} 
+.head nav ul li a:link{
+    font: color rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration: none;
+}
+.contenedor .head nav ul li{
+    color:rgb(194, 72, 72);
+    font-family:'OpenSans-Regular' ;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 13px;
+    margin-top: 59px;
+}
+.contenedor .head nav li:hover{
+    color:rgb(233, 225, 225);
+    background: rgb(0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+    transition: .4s;
+}
+/*************** ****************** Menu Fin **************************************/
+
+
+/********************************** Logo *****************************************/
+.jdo{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    z-index: auto;
+    margin-top: -90px;
+    margin-left: 23px;
+}
+/********************************** Logo Fin *****************************************/
+/**********************************Sub Menu *****************************************/
+.submenu{
+    width: 801px;
+    height: 50px;
+    background: #fff;
+    background: #334255;
+    margin-left: 212px;
+    border-top-left-radius: 123px 104px ;
+    position: absolute;
+    z-index: auto;
+}
+.submenu_{
+    width: 801px;
+    height: 50px;
+    background: #334255;
+    background: linear-gradient(90deg, #334255 0%, #334255 49%, #334255 100%);
+    margin-top: -100px;
+    margin-left: 212px;
+    border-bottom-left-radius: 123px 104px ;
+    /* box-shadow: -2px 3px 2px rgb(224, 193, 193); */
+    position: absolute;
+    z-index: auto;
+}
